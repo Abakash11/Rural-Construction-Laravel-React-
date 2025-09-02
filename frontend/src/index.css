@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hero{
+    background-image: url('./assets/images/hero.jpg');
+    min-height: 800px;
+    background-size: cover;   
+}
+.tag-head{
+    animation: animeheading 2.5s infinite alternate;
+}
+
+@keyframes animeheading{
+     50%{
+        text-shadow: 40px 20px  #000000;
+        color: #ec489a3b;
+        
+    }
+    100%{
+        text-shadow: -40px -20px  #000000;
+        color: transparent;
+        
+    }
+}
+.swiper-wrapper{
+    margin-bottom: 2rem;
+}
+.swiper-pagination{
+.swiper-pagination-bullet-active{
+    background-color: rgb(255, 0, 179);
+    scale: 1.5;
+    
+}}
+.swiper {
+    
+}
