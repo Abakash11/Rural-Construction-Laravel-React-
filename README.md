@@ -6,7 +6,7 @@
 ### 1️⃣ Clone the Repository  
 ```
 
-# 🏗️ Construction Management System  
+# 🏗️ Construction Project 
 
 A full-stack **Construction Project** built with **Laravel (Backend)** and **React (Frontend)**.  
 This system allows construction companies to **manage projects, employees, tasks, budgets, and progress tracking** from a centralized dashboard.  
