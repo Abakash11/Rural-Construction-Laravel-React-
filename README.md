@@ -15,10 +15,11 @@ This system allows construction companies to **manage projects, employees, tasks
 
 ## 🚀 Features  
 
-✅ Dynamic full-stack project
+✅ Dynamic full-stack project With admin panel 
 ✅ File & image uploads (Project documents, blueprints, etc.)  
 ✅ Modern React dashboard with charts & analytics  
-✅ REST API with Laravel backend  
+✅ REST API with Laravel backend
+
 
 ---
 
