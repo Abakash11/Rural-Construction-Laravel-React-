@@ -4,13 +4,11 @@
 ## ⚙️ Installation  
 
 ### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/your-username/construction-management-system.git
-cd construction-management-system
+```
 
 # 🏗️ Construction Management System  
 
-A full-stack **Construction Management System** built with **Laravel (Backend)** and **React (Frontend)**.  
+A full-stack **Construction Project** built with **Laravel (Backend)** and **React (Frontend)**.  
 This system allows construction companies to **manage projects, employees, tasks, budgets, and progress tracking** from a centralized dashboard.  
 
 ---
@@ -31,8 +29,8 @@ This system allows construction companies to **manage projects, employees, tasks
 | 🎨 Frontend | React, TailwindCSS, Axios, Recharts |
 | ⚙️ Backend  | Laravel 10 (REST API) |
 | 🗄️ Database | MySQL / MariaDB |
-| 🔑 Auth     | Laravel Sanctum / JWT |
-| ☁️ Deploy   | Vercel (React) + Render/Heroku (Laravel) |
+| 🔑 Auth     | Laravel Sanctum  |
+| ☁️ Deploy   | Vercel (React) + Sevalla (Laravel + MySql) |
 ---
 
 ## 📂 Project Structure
@@ -40,14 +38,11 @@ construction-management-system/
 │── backend/ (Laravel API)
 │ ├── app/
 │ ├── database/
-│ ├── routes/
-│ └── ...
+│ └── routes/api.php
 │
 │── frontend/ (React Dashboard)
 │ ├── src/
-│ ├── public/
-│ └── ...
-│
+│ └──  public/
 └── README.md 
 
 
