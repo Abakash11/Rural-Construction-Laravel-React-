@@ -17,11 +17,7 @@ This system allows construction companies to **manage projects, employees, tasks
 
 ## 🚀 Features  
 
-✅ User authentication & role-based access (Admin, Manager, Staff)  
-✅ Project management (Create, Update, Delete projects)  
-✅ Task assignment & progress tracking  
-✅ Employee management  
-✅ Budget & expense tracking  
+✅ Dynamic full-stack project
 ✅ File & image uploads (Project documents, blueprints, etc.)  
 ✅ Modern React dashboard with charts & analytics  
 ✅ REST API with Laravel backend  
@@ -30,17 +26,29 @@ This system allows construction companies to **manage projects, employees, tasks
 
 ## 🛠️ Tech Stack  
 
-- **Frontend:** React, TailwindCSS, Axios, Recharts  
-- **Backend:** Laravel 10, REST API  
-- **Database:** MySQL / MariaDB  
-- **Authentication:** Laravel Sanctum / JWT  
-- **Deployment:** Docker / Laravel Sail (Optional)  
-
+| Layer       | Technology |
+|-------------|------------|
+| 🎨 Frontend | React, TailwindCSS, Axios, Recharts |
+| ⚙️ Backend  | Laravel 10 (REST API) |
+| 🗄️ Database | MySQL / MariaDB |
+| 🔑 Auth     | Laravel Sanctum / JWT |
+| ☁️ Deploy   | Vercel (React) + Render/Heroku (Laravel) |
 ---
 
-## 📂 Project Structure  
-
-
+## 📂 Project Structure
+construction-management-system/
+│── backend/ (Laravel API)
+│ ├── app/
+│ ├── database/
+│ ├── routes/
+│ └── ...
+│
+│── frontend/ (React Dashboard)
+│ ├── src/
+│ ├── public/
+│ └── ...
+│
+└── README.md 
 
 
 cd backend
@@ -57,19 +65,7 @@ npm install
 npm start
 
 
-construction-management-system/
-│── backend/ (Laravel API)
-│ ├── app/
-│ ├── database/
-│ ├── routes/
-│ └── ...
-│
-│── frontend/ (React Dashboard)
-│ ├── src/
-│ ├── public/
-│ └── ...
-│
-└── README.md
+
 
 
 
